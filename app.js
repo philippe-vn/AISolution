@@ -1,21 +1,24 @@
 const express = require("express");
-const port = 5000;
 const app = express();
+const port = 3000;
 
-
-
-
+app.set("view engine", "ejs");
 app.use(express.static("public"));
 
+app.get("/", function(reg, res){
+    res.render("list");
+});
 
-app.set('view engine', 'ejs');
 
-res.sendFile(__dirname + "/index.html");
+
+
+
 
 // == STATIC USE WEBSITE
+// res.sendFile(__dirname + "/index.html");
 
 //Console
 app.listen(port, function(){
-    console.log("Server is running on port 3000");
+    console.log("Server is running on port 80");
 });
 

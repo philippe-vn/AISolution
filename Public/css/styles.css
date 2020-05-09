@@ -11,4 +11,8 @@
     background-color: rgb(21, 59, 47);
 }
 
-/* Used in the html-file */
+#Server
+{
+    text-align: center;
+    padding: 50px;
+}
