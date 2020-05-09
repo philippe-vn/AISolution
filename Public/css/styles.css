@@ -1,11 +1,14 @@
+/* Used in the app.js & list.ejs */
 #Title
 {
     text-align: center;
     font-size: 3rem;
     color: rgb(0, 0, 0);
-    background-color: burlywood;
+    background-color: rgb(98, 255, 221);
 }
 .body
 {
     background-color: rgb(21, 59, 47);
 }
+
+/* Used in the html-file */
