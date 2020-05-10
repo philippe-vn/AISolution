@@ -5,12 +5,9 @@ const port = 80;
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 
-app.get("/", function(reg, res){
+app.get("/", function(reg, render){
     res.render("list");
 });
-
-
-
 
 
 
